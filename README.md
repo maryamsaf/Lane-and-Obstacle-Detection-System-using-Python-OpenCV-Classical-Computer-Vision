@@ -19,7 +19,7 @@ It uses ROI masking, Canny + Hough line fitting, and inverse thresholding" for o
 
 ---
 
-## ⚙️ Features
+## Features
 - "Dynamic ROI Masking" for focusing on road lanes  
 - "Canny Edge + Hough Transform" for lane line fitting  
 - "Inverse Thresholding & Morphology" for obstacle detection  
@@ -28,7 +28,7 @@ It uses ROI masking, Canny + Hough line fitting, and inverse thresholding" for o
 
 ---
 
-##  Tech Stack
+##  Requirements
 - "Language:" Python 3.10+
 - "Libraries:" OpenCV, NumPy  
 - "Approach:" Classical Computer Vision (No ML)
@@ -44,5 +44,6 @@ python -m venv .venv
 
 # Install dependencies
 pip install -r requirements.txt
+
 
 
